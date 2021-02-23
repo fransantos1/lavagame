@@ -1,0 +1,8 @@
+main: me.Xchicko.lava.Main
+name: Lava survival
+version: 1.0
+author: Francisco&Daniel
+
+commands:
+  Launch:
+  
