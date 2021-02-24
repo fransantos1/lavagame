@@ -16,7 +16,7 @@ public class Blockinfectr implements Listener{
 		ItemStack blockchanger = new ItemStack(Material.DIAMOND_AXE);
 		if (player.getItemInHand().equals(blockchanger)) {
 			if(!(e.getMaterial().isAir())) {
-				e.getClickedBlock().setType(Material.GOLD_BLOCK);
+				e.getClickedBlock().setType(Material.LAVA);
 			}
 			
 		}
